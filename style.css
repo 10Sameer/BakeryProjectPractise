@@ -87,8 +87,6 @@
     transition: background-color 0.3s, box-shadow 0.3s;
     width: 60%; 
     margin: 0 auto 10px; 
-    display: block; 
-    outline: none; 
     position: relative; 
     overflow: hidden; 
  }
