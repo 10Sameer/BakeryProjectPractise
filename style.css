@@ -71,6 +71,8 @@
      display: flex;
    }
  }
+ 
+ /* ____________________________________________________________ */
 .product-bgcolor {
     background-color: #f2f1ec;
     padding: 20px;
@@ -284,7 +286,7 @@
 }
 
 /* for TEAM */
-team-bgcolor {
+.team-bgcolor {
    background-color: #f2f1ec;
    min-height: 700px;
    padding: 20px;
@@ -321,7 +323,7 @@ team-bgcolor {
    height: auto;
    margin-left: 15px;
    object-fit: cover;
-   border-color: #f2f1ec;
+   border-color: black;
    padding-top: 25px;
    transition: transform 0.8s;
 }
@@ -353,4 +355,20 @@ team-bgcolor {
    justify-content: center;
    gap: 10px; 
    margin-top: 15px;
+}
+.team-socialmedia i {
+   height: 35px;
+   width: 55px;
+   font-size: 30px;
+   color: #c98d83;
+   border-radius: 8px;
+   border: 1px solid;
+   padding-top: 2%;
+   padding-bottom: 1.5%;
+   transition: background-color 0.7s, transform 0.7s;
+}
+
+.team-socialmedia i:hover {
+   background-color: #783b31;
+   transform: scale(1.2);
 }
