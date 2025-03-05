@@ -372,3 +372,25 @@
    background-color: #783b31;
    transform: scale(1.2);
 }
+
+/* Media query for tablets and smaller devices */
+@media screen and (max-width: 768px) {
+   .team-heading {
+       font-size: 24px;
+   }
+
+   .team-content h3 {
+       font-size: 20px;
+   }
+
+   .team-content p {
+       font-size: 16px;
+   }
+
+   .team-socialmedia i {
+       height: 30px;
+       width: 45px;
+       font-size: 25px;
+       padding: 4px;
+   }
+}
