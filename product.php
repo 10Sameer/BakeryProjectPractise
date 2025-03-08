@@ -60,7 +60,28 @@
       </div>
 
       <!-- Product 4 -->
-   
+      <div>
+        <h2>Product Name: Mobile</h2>
+        <p>Price: $250.99</p>
+        <form action="addToCart.php" method="POST">
+          <input type="hidden" name="product_name" value="Mobile">
+          <input type="hidden" name="price" value="$250.99">
+          <label for="quantity4">Quantity:</label>
+          <input type="number" name="quantity" id="quantity4" value="1" min="1" max="10">
+          <button type="submit">Add to Cart</button>
+        </form>
+      </div>
+
+      <!-- Product 5 -->
+      <div>
+        <h2>Product Name: Iphone</h2>
+        <p>Price: $352</p>
+        <form action="addToCart.php" method="POST">
+          <input type="hidden" name="product_name" value="Iphone">
+          <input type="hidden" name="price" value="$352.99">
+          <label for="quantity5">Quantity:</label>
+          <input type="number" name="quantity" id="quantity5" value="1" min="1" max="10">
+          <button type="submit">Add to Cart</button>
         </form>
       </div>
     </div>
