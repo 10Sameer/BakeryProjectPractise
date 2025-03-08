@@ -25,7 +25,7 @@
         <li><a href="#">Contact Us</a></li>
     </ul>
     <div class="cart-icon">
-        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        <a href=""><i class="fas fa-shopping-cart"></i></a>
     </div>
     <div class="menu-toggle" id="mobile-menu">
         <span class="bar"></span>
@@ -36,9 +36,6 @@
 
 
 </nav>
-
-
-
     <section class="product-bgcolor" id="product">
         <div class="Main-product-div">
 
