@@ -194,3 +194,18 @@ h1 {
 .cart-table td {
     font-size: 16px;
 }
+/* Remove BUtton */
+.remove-btn {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.remove-btn:hover {
+    background-color: #cc0000;
+}
