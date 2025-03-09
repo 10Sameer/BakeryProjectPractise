@@ -135,3 +135,21 @@ h1 {
 .product button:hover {
     background-color: #218838;
 }
+
+@media (max-width: 768px) {
+    .product > div {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .product h2 {
+        font-size: 20px;
+    }
+
+    .product p {
+        font-size: 16px;
+    }
+}
