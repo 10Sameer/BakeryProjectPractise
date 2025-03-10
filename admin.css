@@ -1,4 +1,4 @@
-
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
   
   body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* Light gradient background */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@
     overflow: hidden;
   }
   
-
+  /* White Glass Effect Login Form */
   .login-container {
     display: flex;
     justify-content: center;
@@ -25,18 +25,18 @@
   }
   
   .glass-form {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.385); 
     backdrop-filter: blur(10px);
     border-radius: 15px;
     padding: 30px;
     width: 100%;
     max-width: 400px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
   }
   
   .glass-form h2 {
-    color: #fff;
+    color: #333; 
     text-align: center;
     margin-bottom: 20px;
   }
@@ -46,7 +46,7 @@
   }
   
   .input-group label {
-    color: #fff;
+
     display: block;
     margin-bottom: 5px;
   }
@@ -56,13 +56,13 @@
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background: rgba(255, 255, 255, 0.2);
-    color: #fff;
+    background: rgb(255, 255, 255); /* Slightly opaque white */
+    color: #333;
     font-size: 16px;
   }
   
   .input-group input::placeholder {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.5); /* Placeholder text */
   }
   
   button {
@@ -70,7 +70,7 @@
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background: #2575fc;
+    background: #4a90e2; 
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -78,10 +78,10 @@
   }
   
   button:hover {
-    background: #6a11cb;
+    background: #357abd; 
   }
   
- 
+  /* Responsive Design */
   @media (max-width: 480px) {
     .glass-form {
       padding: 20px;
