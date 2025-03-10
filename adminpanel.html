@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Login</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="glass-form">
+      <h2>Admin Login</h2>
+      <form id="loginForm">
+        <div class="input-group">
+          <label for="userid">User ID</label>
+          <input type="text" id="userid" name="userid" required>
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+  <script>
+        document.getElementById('loginForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+      
+        const userid = document.getElementById('userid').value;
+        const password = document.getElementById('password').value;
+      
+        
+        if (userid === 'admin' && password === 'Sameer') {
+          alert('Login successful! Redirecting to dashboard...');
+          window.location.href = 'dashboard.html'; 
+        } else {
+          alert('Invalid User ID or Password');
+        }
+      });
+  </script>
+</body>
+</html>
